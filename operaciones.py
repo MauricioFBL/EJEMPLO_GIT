@@ -1,5 +1,5 @@
 # sr menu (si hay tiempo)
-def algo():
+def menu():
     pass
 
 # suma
@@ -13,3 +13,4 @@ def algo():
 # main
 if __name__ =='__main__':
     print('hola')
+    menu()
