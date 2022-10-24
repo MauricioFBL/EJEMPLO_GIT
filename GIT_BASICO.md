@@ -1,4 +1,69 @@
 # GIT
+Git es un sistema de control de versiones optimizado para archivos de texto
+plano, crea un historico de todos los cambios realizados en un archivo o
+conjunto de archivos y permite intereactuar con el
+
+
+Antes de empezar a trabajar con git es importante hacer una configuracion,
+que permita identificarte como autor en el repositorio esto se hace 
+mediante los siguientes  comandos
+
+- Configuracion de usuario
+
+    ```git config --global user.name "Mauricio Bautista"```
+
+    ```git config --global user.email Mauricio.Bautista@dentsu.com```
+
+- listar Configuracion
+
+    ```git config --list```
+
+
+Algunos comandos basicos para trabajar con git son :
+
+- Cuando se quiere crear un repositorio local se necesita ubicarse en 
+la carpeta que sera la base del proyecto y usar:
+
+    `git init`
+
+- Una vez que tenemos un proyecto creado, si queremos ver cual es el
+estatus del proyecto y sus archivo se utiliza
+
+    ```git status   ```
+
+- Para agregar archivos al trackeo de git o la zona de staging se usa:
+
+    ```git add archivo.algo```
+
+- Para eliminar un archivo de la zona de staging (RAM)
+
+    ```git rm archivo.algo```
+
+- Añadir todos los archivos de una carpeta a staging
+
+    ```git add .```
+
+- Subir completamente archivos de carpeta
+
+    ```git commit -m ""```
+
+- ver historial de cambios de un archivo
+
+    ```git log archivo.algo```
+
+- muestra diferencia entre version anterior y version nueva
+
+    ```git show .\algo.txt```
+
+- ESC SHIFT ZZ
+
+    ```git commit```
+
+- comparar contenido de acuerdo indices de comit
+
+    ```git diff 07c6676d979928f924dc284f35f3f51f33e1a804 ee2fc3536aa3b4bc267f3155423ac202d72d386e```
+
+- git diff archivo indicecomitcomparar indicecomparador
 
 ```
 git log --oneline - Te muestra el id commit y el título del commit.
@@ -20,64 +85,6 @@ git log -S “Por contenido”- Buscar los commits con el contenido dentro del a
 git log > log.txt - guardar los logs en un archivo txt
 ```
 
-- inicializar git
-
-```git init ```
-
-- Estatus del proyecto
-
-```git status   ```
-
-- Añadir archivos para ser enviados
-
-```git add archivo.algo```
-
-- Sacar de envio 
-
-```git rm archivo.algo```
-
-- quitar de memoria ram
-
-```git rm --cached archivo.algo```
-
-- Configuracion de usuario
-
-```git config --global user.name "Mauricio Bautista"```
-
-```git config --global user.email Mauricio.Bautista@dentsu.com```
-
-- listar Configuracion
-
-```git config --list```
-
-- Añadir todos los archivos de una carpeta
-
-```git add .```
-
-- Subir completamente archivos de carpeta
-
-```git commit -m ""```
-
--revision estatus del repo
-
-```git status```
-- ver historial de cambios de un archivo
-
-```git log archivo.algo```
-
-- muestra diferencia entre version anterior y version nueva
-
-```git show .\algo.txt```
-
-- ESC SHIFT ZZ
-
-```git commit```
-
-- comparar contenido de acuerdo indices de comit
-
-```git diff 07c6676d979928f924dc284f35f3f51f33e1a804 ee2fc3536aa3b4bc267f3155423ac202d72d386e```
-
-- git diff archivo indicecomitcomparar indicecomparador
 
 __________________________________________________________________
 ## EXISTEN 3 AREAS DIFERENTES EN git
