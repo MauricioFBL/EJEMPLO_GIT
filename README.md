@@ -10,6 +10,7 @@ equipo y los merge y desarrollos finales, hacerlos sobre la rama de
 desarrollo.
 
 El repositorio contara con un archivo .md con algunos de los comandos
-basicos de git que sirve como apoyo
+basicos de git que sirve como apoyo 
+[GIT_BASICO.md](GIT_BASICO.md)
 
 
