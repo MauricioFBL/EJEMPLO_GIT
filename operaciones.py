@@ -7,7 +7,10 @@ def suma (a,b):
     suma = a + b
 
     return suma
+
 # resta
+def resta (a,b):
+    return a - b
 
 # multiplicacion
 
