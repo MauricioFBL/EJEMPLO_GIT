@@ -19,6 +19,8 @@ def multiplicaion(a,b):
     return mult
     
 # division
+def division(a,b):
+    return a / b
 
 # main
 if __name__ =='__main__':
