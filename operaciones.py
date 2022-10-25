@@ -2,8 +2,11 @@
 def menu():
     pass
 
-# suma
+def suma (a,b):
+    # suma
+    suma = a + b
 
+    return suma
 # resta
 
 # multiplicacion
