@@ -12,7 +12,7 @@ mediante los siguientes  comandos
 
     ```git config --global user.name "Mauricio Bautista"```
 
-    ```git config --global user.email Mauricio.Bautista@dentsu.com```
+    ```git config --global user.email Mauricio.Bautista@jejeje.com```
 
 - listar Configuracion
 
