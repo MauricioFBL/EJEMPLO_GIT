@@ -6,4 +6,3 @@ E.g Pull changes and review docs. Run `command` and validate output fits criteri
 
 ## Resolves Issues
 E.g Closes #Issue
-
