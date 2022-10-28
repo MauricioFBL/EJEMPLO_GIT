@@ -5,6 +5,8 @@ def algo():
 # suma
 
 # resta
+def resta(a,b):
+    return a-b
 
 # multiplicacion
 
