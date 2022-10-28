@@ -4,9 +4,10 @@ def algo():
 
 # suma
 
+
 # resta
-def resta(a,b):
-    return a-b
+def resta (a,b):
+    return a - b
 
 # multiplicacion
 
