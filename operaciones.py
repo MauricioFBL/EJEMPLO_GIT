@@ -3,6 +3,8 @@ def algo():
     pass
 
 # suma
+def suma(a,b):
+    return a+b
 
 # resta
 
